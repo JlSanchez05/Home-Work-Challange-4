@@ -5,5 +5,49 @@
 }
 
 body {
-  background-color: lightblue;
+  color: white;
+  background-color: black;
+  font-family: "Changa", sans-serif;
+  font-family: "Slabo 27px", serif;
+  font-family: "Zen Dots", cursive;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 40px 0px 40px;
+  flex-direction: row;
+}
+
+header button {
+  border-radius: 25px;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-family: "Changa", sans-serif;
+  font-family: "Slabo 27px", serif;
+  font-family: "Zen Dots", cursive;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.welcome-container button {
+  margin-top: 30px;
+  margin-right: 350px;
+  margin-left: 350px;
+  border-radius: 50px;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-family: "Changa", sans-serif;
+  font-family: "Slabo 27px", serif;
+  font-family: "Zen Dots", cursive;
 }
