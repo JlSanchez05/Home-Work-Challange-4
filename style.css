@@ -51,3 +51,16 @@ header button {
   font-family: "Slabo 27px", serif;
   font-family: "Zen Dots", cursive;
 }
+.questions-container {
+  margin-top: 45px;
+  font-size: 27px;
+}
+.answer-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: flex-start;
+  margin-left: 45px;
+  margin-top: 45px;
+  font-size: 25px;
+}
