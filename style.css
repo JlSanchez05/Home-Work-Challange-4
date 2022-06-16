@@ -55,12 +55,16 @@ header button {
   margin-top: 45px;
   font-size: 27px;
 }
-.answer-questions {
+.answer-questions-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  justify-items: flex-start;
   margin-left: 45px;
   margin-top: 45px;
-  font-size: 25px;
+}
+
+.answer-questions-container a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
 }
